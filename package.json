@@ -1,0 +1,14 @@
+{
+  "name": "anna_portfolio",
+  "version": "1.0.0",
+  "description": "Anna Guiffre's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "folarin",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
