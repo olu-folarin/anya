@@ -1,12 +1,13 @@
-$primary-color: rgba(51, 34, 34, 0.61);
+$primary-color: rgba(51, 34, 34, .6);
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url('../img/marek-piwnicki-7XY9BhBFjGk-unsplash.jpg');
 $bg-opacity: .9;
+$profile-photo: url('../img/AnyaPro.jpeg');
 
 
-@mixin easeInOut {
-    transition: all .4s ease-in-out;
+@mixin easeOut {
+    transition: all .5s ease-out;
 }
 
 @mixin background {
