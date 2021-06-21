@@ -110,10 +110,12 @@ main {
     }
     
     .job {
+        // align-content: center;
         text-align: center;
-        align-content: center;
+        align-self: center;
         background: lighten($primary-color, 5);
         border-bottom: $secondary-color 4px solid;
+        padding: 1rem;
     }
 }
 

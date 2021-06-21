@@ -178,9 +178,10 @@ main {
     grid-area: job3; }
   .about-info .job {
     text-align: center;
-    align-content: center;
+    align-self: center;
     background: rgba(66, 44, 44, 0.6);
-    border-bottom: #eece1a 4px solid; }
+    border-bottom: #eece1a 4px solid;
+    padding: 1rem; }
 
 .companies {
   display: grid;
